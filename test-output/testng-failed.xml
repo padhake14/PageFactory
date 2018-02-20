@@ -7,7 +7,6 @@
         <methods>
           <include name="setUp"/>
           <include name="verifyLoginWithInvalidCredentails"/>
-          <include name="endTest"/>
         </methods>
       </class> <!-- com.test.automation.uiAutomation.homepage.TC_001_VerifyLoginWithInvalidCredentails -->
     </classes>
