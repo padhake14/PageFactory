@@ -25,10 +25,9 @@ public class TestBase {
 	public void selectBrowser(String browser) {
 		if (browser.equals("chrome")) {
 			// for Linux
-			// System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"/driver/chromedrive1r");
+			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"/driver/chromedrive1r");
 
-			System.setProperty("webdriver.chrome.driver",
-					System.getProperty("user.dir") + "\\driver\\chromedriver.exe");
+			//System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir") + "\\driver\\chromedriver.exe");
 			log.info("creating oject of browser"+browser);
 			driver = new ChromeDriver();
 

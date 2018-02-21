@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.test.automation.uiAutomation.homepage.TC_001_VerifyLoginWithInvalidCredentails">
+      <class name="com.test.automation.uiAutomation.homepage.TC_002_VerifyRegistration">
         <methods>
-          <include name="setUp"/>
+          <include name="endTest"/>
           <include name="verifyLoginWithInvalidCredentails"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.test.automation.uiAutomation.homepage.TC_001_VerifyLoginWithInvalidCredentails -->
+      </class> <!-- com.test.automation.uiAutomation.homepage.TC_002_VerifyRegistration -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
